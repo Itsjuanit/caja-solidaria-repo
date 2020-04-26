@@ -558,6 +558,10 @@
   color: #fff;
 }
 
+.about .links-footer .links-footer-a .fa-whatsapp {
+  padding-right: 5px;
+}
+
 .about-sub {
   background-color: #b6c6d6;
   display: -webkit-box;
