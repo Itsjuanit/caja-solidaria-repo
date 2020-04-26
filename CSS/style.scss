@@ -63,6 +63,11 @@ $color-font-menu: #b6c6d6;
                     &:hover {
                         cursor: pointer;
                     }
+
+                    .a {
+                        text-decoration: none;
+                        color: $color-font;
+                    }
                 }
 
                 .active {
@@ -279,13 +284,16 @@ $color-font-menu-other: #d2e5f8;
                 padding: 0.3em;
                 padding-top: 1.5em;
 
-
                 &-anchor {
                     text-decoration: none;
                     color: #fff;
+                    transition: transform 0.9s all;
+
+                    &:hover {
+                        transform: scale(1.06);
+                    }
                 }
             }
-
 
             .mini-linea {
                 margin: 0 auto 1em;
@@ -397,6 +405,14 @@ $color-font-menu-other: #d2e5f8;
             font-size: 1.4em;
             margin-left: 1em;
             transition: transform 1s all;
+
+            &:hover {
+                border: 1px solid $color-font;
+                border-radius: 30px;
+                padding: 5px;
+                background-color: $color-font;
+                color: #fff;
+            }
         }
     }
 }
