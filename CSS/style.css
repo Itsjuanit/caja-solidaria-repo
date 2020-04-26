@@ -579,4 +579,26 @@
   color: #444;
   padding-left: 30px;
 }
+
+.itsjuanit {
+  width: 100%;
+  text-align: center;
+  background-color: #b6c6d6;
+}
+
+.itsjuanit-a {
+  text-decoration: none;
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.3em;
+  color: #444;
+}
+
+.itsjuanit-a:hover {
+  border: 1px solid #444;
+  border-radius: 30px;
+  padding: 5px;
+  background-color: #444;
+  color: #fff;
+}
 /*# sourceMappingURL=style.css.map */

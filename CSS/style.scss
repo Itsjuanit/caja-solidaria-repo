@@ -435,3 +435,25 @@ $color-font-menu-other: #d2e5f8;
         padding-left: 30px;
     }
 }
+
+.itsjuanit {
+    width: 100%;
+    text-align: center;
+    background-color: $color-font-menu;
+
+    &-a {
+        text-decoration: none;
+        text-align: center;
+        font-family: $principal-font;
+        font-size: 1.3em;
+        color: $color-font;
+
+        &:hover {
+            border: 1px solid $color-font;
+            border-radius: 30px;
+            padding: 5px;
+            background-color: $color-font;
+            color: #fff;
+        }
+    }
+}
