@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,CAAC;EACD,WAAW,EAAE,uBAAuB;EACpC,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,MAAM;EACvB,MAAM,EAAE,KAAK;EACb,MAAM,EAAE,GAAG;EACX,OAAO,EAAE,GAAG;EACZ,UAAU,EAAE,MAAM;CACrB;;AAED,AAAA,CAAC,CAAC;EACE,UAAU,EAAE,UAAU;CACzB",
+    "sources": [
+        "hola.scss"
+    ],
+    "names": [],
+    "file": "hola.css"
+}
