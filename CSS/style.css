@@ -115,12 +115,12 @@
   }
 }
 
-.header .sub-header .hero-title {
+.header .hero-title {
   margin: 14em 0;
   padding: 20px;
 }
 
-.header .sub-header .hero-title .hero-title-first {
+.header .hero-title .hero-title-first {
   font-family: "Satisfy", cursive;
   font-size: 5em;
   color: #444;
@@ -128,7 +128,7 @@
 }
 
 @media (max-width: 768px) {
-  .header .sub-header .hero-title .hero-title-first {
+  .header .hero-title .hero-title-first {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -143,7 +143,7 @@
 }
 
 @media (max-width: 300px) {
-  .header .sub-header .hero-title .hero-title-first {
+  .header .hero-title .hero-title-first {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -157,14 +157,14 @@
   }
 }
 
-.header .sub-header .hero-title .hero-linea {
+.header .hero-title .hero-linea {
   margin-top: 0 auto 1em;
   width: 50px;
   border: 1px solid #b6c6d6;
 }
 
 @media (max-width: 768px) {
-  .header .sub-header .hero-title .hero-linea {
+  .header .hero-title .hero-linea {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -178,7 +178,7 @@
 }
 
 @media (max-width: 300px) {
-  .header .sub-header .hero-title .hero-linea {
+  .header .hero-title .hero-linea {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -191,7 +191,7 @@
   }
 }
 
-.header .sub-header .slow-text {
+.header .slow-text {
   text-align: center;
   max-width: 450px;
   margin: 0 auto;
@@ -199,14 +199,14 @@
   padding-bottom: 50px;
 }
 
-.header .sub-header .slow-text .slow-text-first {
+.header .slow-text .slow-text-first {
   font-size: 3em;
   margin-bottom: 0.2em;
   font-family: "Bebas Neue", cursive;
 }
 
 @media (max-width: 768px) {
-  .header .sub-header .slow-text .slow-text-first {
+  .header .slow-text .slow-text-first {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -221,7 +221,7 @@
 }
 
 @media (max-width: 300px) {
-  .header .sub-header .slow-text .slow-text-first {
+  .header .slow-text .slow-text-first {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -235,19 +235,19 @@
   }
 }
 
-.header .sub-header .linea-slow {
+.header .slow-text .linea-slow {
   margin: 0 auto 1em;
   border: 1px solid #444;
   width: 50px;
 }
 
-.header .sub-header .text-from-slow {
+.header .slow-text .text-from-slow {
   line-height: 1.6em;
   font-family: "Bebas Neue", cursive;
   font-size: 1.6em;
 }
 
-.header .sub-header .text-from-slow-big {
+.header .slow-text .text-from-slow-big {
   font-family: "Bebas Neue", cursive;
   font-size: 1.98em;
   font-weight: bold;

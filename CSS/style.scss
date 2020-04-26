@@ -31,7 +31,6 @@ $color-font-menu: #b6c6d6;
         .tabs {
             width: 100%;
 
-
             ul {
                 display: flex;
                 width: fit-content;
@@ -85,91 +84,91 @@ $color-font-menu: #b6c6d6;
                     }
 
                     @media (max-width: 300px) {
-                        display: none;
+                        display: none
                     }
                 }
             }
         }
+    }
 
-        .hero-title {
-            margin: 14em 0;
-            padding: 20px;
+    .hero-title {
+        margin: 14em 0;
+        padding: 20px;
 
-            .hero-title-first {
-                font-family: $secondary-font;
-                font-size: 5em;
-                color: $color-font;
-                margin-bottom: 0.3em;
+        .hero-title-first {
+            font-family: $secondary-font;
+            font-size: 5em;
+            color: $color-font;
+            margin-bottom: 0.3em;
 
-                @media (max-width: 768px) {
-                    display: flex;
-                    flex-direction: column;
-                    text-align: center;
-                    padding: 10px;
-                    overflow-x: hidden
-                }
-
-                @media (max-width: 300px) {
-                    display: flex;
-                    flex-direction: column;
-                    text-align: center;
-                    padding: 10px;
-                    overflow-x: hidden
-                }
+            @media (max-width: 768px) {
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                padding: 10px;
+                overflow-x: hidden
             }
 
-            .hero-linea {
-                margin-top: 0 auto 1em;
-                width: 50px;
-                border: 1px solid $color-font-menu;
-
-                @media (max-width: 768px) {
-                    display: flex;
-                    flex-direction: column;
-                    text-align: center;
-
-                    overflow-x: hidden
-                }
-
-                @media (max-width: 300px) {
-                    display: flex;
-                    flex-direction: column;
-                    text-align: center;
-
-                    overflow-x: hidden
-                }
+            @media (max-width: 300px) {
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                padding: 10px;
+                overflow-x: hidden
             }
         }
 
-        .slow-text {
-            text-align: center;
-            max-width: 450px;
-            margin: 0 auto;
-            color: $color-font;
-            padding-bottom: 50px;
+        .hero-linea {
+            margin-top: 0 auto 1em;
+            width: 50px;
+            border: 1px solid $color-font-menu;
 
-            .slow-text-first {
-                font-size: 3em;
-                margin-bottom: 0.2em;
-                font-family: $principal-font;
+            @media (max-width: 768px) {
+                display: flex;
+                flex-direction: column;
+                text-align: center;
 
-                @media (max-width: 768px) {
-                    display: flex;
-                    flex-direction: column;
-                    text-align: center;
-                    padding: 10px;
-                    overflow-x: hidden
-                }
-
-                @media (max-width: 300px) {
-                    display: flex;
-                    flex-direction: column;
-                    text-align: center;
-                    padding: 10px;
-                    overflow-x: hidden
-                }
-
+                overflow-x: hidden
             }
+
+            @media (max-width: 300px) {
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+
+                overflow-x: hidden
+            }
+        }
+    }
+
+    .slow-text {
+        text-align: center;
+        max-width: 450px;
+        margin: 0 auto;
+        color: $color-font;
+        padding-bottom: 50px;
+
+        .slow-text-first {
+            font-size: 3em;
+            margin-bottom: 0.2em;
+            font-family: $principal-font;
+
+            @media (max-width: 768px) {
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                padding: 10px;
+                overflow-x: hidden
+            }
+
+            @media (max-width: 300px) {
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                padding: 10px;
+                overflow-x: hidden;
+            }
+
         }
 
         .linea-slow {
